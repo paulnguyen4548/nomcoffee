@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/resetcss.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Nom coffee</title>
+</head>
+<body>    
+    <div class="banner">
+        <div id="navbar" class="top_header">
+            <div class="top_header-icon">
+                <img id="logo" src="./image/NOMNOM-LOGO.png" alt="Mainlogo">
+            </div>
+            <div class="top_header-nav">
+                <div class="top_header-nav-item home active">
+                    Home
+                </div>
+                <div class="top_header-nav-item menu">
+                    Price list
+                </div>
+                <div class="top_header-nav-item contact">
+                    Contact
+                </div>
+            </div>
+    
+        </div>
+        <div class="banner_img">
+            <div class="shop_name">
+                <h1>Nom <br> Nom</h1>               
+                <p>Coffee Roasters</p>
+                
+            </div>
+            <div class="price_list">
+                <p>Coffee. Drinks. <br> 
+                     Cocktails <br> 
+                    Beer. Snacks. <br> 
+                    Good Eats. Great <br> 
+                     People. <br> 
+                    Cozy place.
+                </p>
+                <a href="" class="price_list_btn" >Price List
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="opentime">
+        <div class="opentime_banner2"></div>
+        <div class="opentime_text">
+            <h1>open <br> very <br> day</h1>
+            <p>MONDAY - <br>SATURDAY: <br>06:00 - 24:00 <br>
+              SUNDAY: <br>07:00 - 24:00</p>
+        </div>
+    </div>
+    <div class="introduce">
+        <div class="introduce_img">
+            
+        </div>
+        <div class="introduce_text">
+            <h2>Best Coffee in Town</h2>
+            <p>NOMNOM Coffee Roasters is a point of reference.
+                Cozy space & urban style, is there to accompany you in every moment.</p>
+            <h3>IT ALL STARTS WITH A GOOD COFFEE</h3>
+            <p>Great flavors, excellent service with emphasis on details.
+                Our coffee is based on the philosophy of specialty coffee.
+                We have chosen between several blends, variety 100% arabica, so that the taste remains unchanged even after an hour.</p>
+        </div>
+    </div>
+   
+    <div class="info">
+        <div class="info_table">
+            <div class="delivery">
+                <h1>Delivery</h1>
+                <p>0326573312</p>
+                <p>Minimum order 4$</p>
+            </div>
+            <div class="openhour">
+                <h1>open every day</h1>
+                <p>Monday - Saturday: <br>06:00 - 24:00 <br>
+                    Sunday: 07:00 - 24:00</p>
+            </div>
+            <div class="address">
+                <h1>address</h1>
+                <p>Extension of Meander 28B, Evosmos, Thessaloniki</p>
+                <a href="mailto:quocuy4548@gmail.com">quocuy4548@gmail.com</a>
+            </div>
+            <div class="socical">
+                <h1>stay connected</h1>
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-square"></i>
+                </a>                
+                
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+               
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer">© Copyright 2021 NomNom | Powered by Paulnguyen</p>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.height ="54px";
+            document.getElementById("navbar").style.backgroundColor ="black";
+            // document.querySelector(".banner_img").style.margin='54px 40px 38px 40px'
+            document.getElementById("logo").style.height ="50px";
+            document.getElementById("logo").style.width ="50px";
+          } else {
+            document.getElementById("navbar").style.height ="124px";
+            document.getElementById("navbar").style.backgroundColor ="transparent";
+            // document.querySelector(".banner_img").style.margin='124px 40px 38px 40px'
+            document.getElementById("logo").style.height ="100px";
+            document.getElementById("logo").style.width ="100px";
+          }
+        }
+        </script>
+        
+</body>

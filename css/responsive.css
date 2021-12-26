@@ -1,0 +1,119 @@
+/* 
+	tablet & mobile
+*/
+/* 
+	mobile
+	
+*/
+
+@media screen and (max-width: 739px){ 
+	.banner {
+		height: 630px;
+	}
+	.banner_img{
+		border: 4px solid var(--maincolor);
+		width: 92%;
+		margin:auto;
+		margin-top: 160px;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.shop_name {
+		
+		top: 17%;
+		right: 9%;
+		
+	}
+	.shop_name > p {
+		font-size: 54px;
+	}
+	.price_list {
+		margin: auto;
+		width: 100%;
+		height: 490px;
+		top: 110%;
+		left: 0;
+		word-break: normal;
+		font-size: 42px;
+		margin: auto;
+	}
+	.price_list >p{
+		width: 70%;
+	}
+	.price_list >p >br{
+		content: "";
+	}
+	.price_list_btn {
+		
+		margin-top: 20px;
+	}
+	.opentime {
+		margin-top: 570px;
+	}
+	.opentime_banner2 {
+		
+		right: 59%;
+	}
+	.opentime_text {
+		top: -13%;
+		width: 400px;
+    	right: 0%;
+	}
+	.opentime_text > h1 >br,
+	.opentime_text > p >br{
+		content: "";
+	}
+	.introduce {
+		
+		top: -290px;
+	}
+	.introduce {
+		
+		width: 92%;
+		margin: auto;
+	}
+	.introduce::before {
+		height: 110%;
+		width: 100%;
+		margin: auto;
+	}
+	.introduce_img {	
+		background-size: cover;	
+		width: 90%;
+		left: 4%;
+		margin: 0;
+		top:40px;
+		
+	}
+	.introduce_text {
+		top: 0;
+		right: 62px;
+		top: 57%;
+		width: 534px;
+	
+	}
+	.introduce_text > h2 {
+		
+		margin-bottom: 30px;
+	}
+	.info {
+		background-size: cover;
+	}
+	.info_table {
+		height: 68%;		
+		flex-wrap: wrap;
+	}
+	.delivery, .openhour, .address, .socical {
+		
+		width: 50%;
+	}
+	.delivery>h1, .openhour>h1, .address>h1, .socical>h1 {
+		
+		margin-top: 20px;
+	}
+	.delivery>p, .openhour>p, .address>p, .address>a, .socical>p {
+		padding-bottom: 22px;
+		
+	}
+
+}
+
